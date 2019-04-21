@@ -6,8 +6,7 @@
   "scripts": {
     "build": "webpack",
     "dev": "webpack-dev-server",
-    "check-lint": "eslint .",
-    "pre-commit": "webpack"
+    "check-lint": "eslint ."
   },
   "author": "",
   "license": "ISC",
@@ -45,7 +44,7 @@
   },
   "config": {
     "ghooks": {
-      "pre-commit": "npm run pre-commit"
+      "pre-commit": "npm run build"
     }
   }
 }
