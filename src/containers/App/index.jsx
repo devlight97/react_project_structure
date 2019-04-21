@@ -7,7 +7,6 @@ import {
   Title,
 } from './App.styled';
 
-
 class App extends Component {
   constructor(props) {
     super(props);
