@@ -60,4 +60,4 @@ const makeMapStateToProps = () => {
 };
 const mapStateToProps = makeMapStateToProps();
 
-export default connect(mapStateToProps)(App);
+export default connect(mapStateToProps)(App);ádfsdf ádfsad
