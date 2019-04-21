@@ -1,11 +1,6 @@
-{
-  "parser": "babel-eslint",
-  "plugins": [
-    "react"
-  ],
-  "extends": [
-    "airbnb"
-  ],
+module.exports = {
+  "plugins": ["react"],
+  "extends": ["airbnb"],
   "rules": {
     "import/no-unresolved": 0,
     "linebreak-style": 0,
@@ -17,4 +12,4 @@
     "react/jsx-filename-extension": 0,
     "implicit-arrow-linebreak": 0
   }
-}
+};
