@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
+
 import TestButton from '@containers/TestButton';
+import HeaderBar from '@containers/HeaderBar';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import { makeGetClassification } from './selector';
 import {
   Title,
 } from './App.styled';
+
+
+import { makeGetClassification } from './selector';
 
 class App extends Component {
   constructor(props) {
@@ -25,6 +29,7 @@ class App extends Component {
     return (
       <div>
         <Title>Hello App</Title>
+        <HeaderBar />
         <span>mark</span>
         <input
           onChange={evt => this.getTextInput(evt)}
